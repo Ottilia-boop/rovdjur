@@ -1,1 +1,32 @@
 /* Denna fil skall innehålla din CSS kod */
+#container {
+    display:grid;
+    grid-template-areas: 
+    'hd hd hd'
+    'nv nv nv'
+    'mn mn mn'
+    'mn mn mn'
+    'ft ft ft';
+    grid-gap: 2px;
+    border-radius: 3px;
+}
+/*logga*/header {
+grid-area: hd;
+background-color:blueviolet;
+text-align: center;
+}
+/*bilder förbi*/nav {
+grid-area: nv;
+background-color: chocolate;
+text-align: center;
+}
+/*Text*/main {
+grid-area: mn;
+background-color: crimson;
+text-align: center;
+}
+/*källor och videos*/footer {
+grid-area: ft;
+background-color: midnightblue;
+text-align: center;
+}
