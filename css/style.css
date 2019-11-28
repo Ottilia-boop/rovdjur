@@ -1,32 +1,70 @@
 /* Denna fil skall innehålla din CSS kod */
+@media only screen and (max-width: 600px){
 #container {
     display:grid;
     grid-template-areas: 
     'hd hd hd'
     'nv nv nv'
     'mn mn mn'
-    'mn mn mn'
+    'vi vi vi'
     'ft ft ft';
     grid-gap: 2px;
     border-radius: 3px;
 }
-/*logga*/header {
+/*Bild*/header {
 grid-area: hd;
-background-color:blueviolet;
+background-color:chocolate;
 text-align: center;
+border-radius: 3px;
+height: 100px;
 }
-/*bilder förbi*/nav {
+/*länkar*/nav {
 grid-area: nv;
 background-color: chocolate;
 text-align: center;
+border-radius: 3px;
+height: 80px;
 }
 /*Text*/main {
 grid-area: mn;
-background-color: crimson;
+background-color: chocolate;
 text-align: center;
+border-radius: 3px;
+height: 230px;
 }
-/*källor och videos*/footer {
+/*Videos*/ vid {
+    grid-area: vi;
+    background-color: chocolate;
+    border-radius: 3px;
+    text-align: center;
+    height: 170px;
+}
+/*källor*/footer {
 grid-area: ft;
-background-color: midnightblue;
+background-color: chocolate;
 text-align: center;
+border-radius: 3px;
+height: 40px;
+}
+
+article {
+    border: solid rgb(160, 95, 48) 1px;
+    border-radius: 3px;
+    text-align: center;
+    height: 20px;
+    width: 250px;
+    background-color: rgb(228, 140, 78);
+}
+#videos {
+    font-family: fantasy;
+}
+
+#artiklar{
+    font-family: fantasy;
+}
+
+#kontakt {
+    font-family: fantasy;
+}
+
 }
