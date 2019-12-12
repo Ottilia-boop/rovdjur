@@ -1,5 +1,8 @@
 /* Denna fil skall innehålla din CSS kod */
 @media only screen and (max-width: 600px){
+    body {
+        background-color: rgb(51, 18, 5);
+    }
 #container {
     display:grid;
     grid-template-areas: 
@@ -8,57 +11,113 @@
     'mn mn mn'
     'vi vi vi'
     'ft ft ft';
-    grid-gap: 2px;
+    grid-gap: 4px;
     border-radius: 3px;
+    min-height: 100vh;
 }
 /*Bild*/header {
 grid-area: hd;
 background-color:chocolate;
 text-align: center;
 border-radius: 3px;
-height: 450px;
-
+height: 335px;
+font-family: fantasy;
+border-style: solid;
+border-color:  rgb(218, 128, 64);
 }
+
+h1 {
+    position: relative;
+    right: -60;
+}
+
+#tail {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: rgb(176, 228, 228);
+    border-width: 3px;
+    position: relative;
+    top: -95px;
+    right: 3px;
+
+
+} 
+
+#face {
+    display: block;
+    margin: auto;
+    width: 504px;
+    height: 180px;
+}
+
 /*länkar*/nav {
 grid-area: nv;
 background-color: chocolate;
-text-align: center;
 border-radius: 3px;
-height: 66px;
+height: 145px;
+border-style: solid;
+border-color:  rgb(218, 128, 64);
+border-width: 5px;
+text-align: center;
 }
+
 /*Text*/main {
 grid-area: mn;
 background-color: chocolate;
-text-align: center;
 border-radius: 3px;
 height: 230px;
+text-align: center;
+font-family: fantasy;
+border-style: solid;
+border-color:  rgb(218, 128, 64);
+border-width: 5px;
 }
+li {
+    font-size: 13px;
+}
+
 /*Videos*/ vid {
     grid-area: vi;
     background-color: chocolate;
     border-radius: 3px;
     text-align: center;
     height: 170px;
+    border-style: solid;
+border-color:  rgb(218, 128, 64);
+border-width: 5px;
 }
 /*källor*/
 footer {
 grid-area: ft;
 background-color: chocolate;
-text-align: center;
 border-radius: 3px;
-height: 50px;
+height: 58px;
+font-family: fantasy;
+font-size: 1px;
+border-style: solid;
+border-color:  rgb(218, 128, 64);
+border-width: 5px;
 }
 
 article {
     border: solid rgb(160, 95, 48) 1px;
-    border-radius: 3px;
+    border-radius: 5px;
     text-align: center;
-    height: 20px;
-    width: 250px;
+    height: 19px;
+    width: 350px;
     background-color: rgb(228, 140, 78);
+    position: relative;
+    right: 35px;
+    
 }
-#videos {
+video {
     font-family: fantasy;
+    position: relative;
+    top:  -2px;
    
 }
 

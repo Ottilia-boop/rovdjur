@@ -1,0 +1,91 @@
+@media only screen and (max-width: 600px) {
+    
+    body {
+        background-color: rgb(51, 18, 5);
+    }
+    #const {
+        display:grid;
+        grid-template-areas: 
+        'hd hd hd hd'
+        'mn mn nv nv'
+        'sm sm aw aw'
+        'ft ft ft ft';
+        grid-gap: 4px;
+    }
+    header {
+        grid-area: hd;
+        background-color: chocolate;
+        text-align: center;
+        font-family: fantasy;
+        border-radius: 3px;
+        height: 100px;
+        border-style: solid;
+        border-color: rgb(218, 128, 64);
+        border-width: 5px;
+    }
+
+    main{
+        grid-area: mn;
+        background-color: chocolate;
+        font-family: fantasy;
+        text-align: center;
+        border-radius: 3px;
+        height: 160px;
+        border-style: solid;
+        border-color: rgb(218, 128, 64);
+        border-width: 5px;
+
+    }
+
+    nav {
+        grid-area: nv;
+        background-color: chocolate;
+        font-family: fantasy;
+        border-radius: 3px;
+        height: 160px;
+        border-style: solid;
+        border-color: rgb(218, 128, 64);
+        border-width: 5px;
+    }
+
+    som {
+        grid-area: sm;
+        background-color: chocolate;
+        font-family: fantasy;
+        text-align: center;
+        border-radius: 3px;
+        height: 160px;
+        border-style: solid;
+        border-color: rgb(218, 128, 64);
+        border-width: 5px;
+    }
+
+    awe {
+        grid-area: aw;
+        background-color: chocolate;
+        font-family: fantasy;
+        text-align: center;
+        border-radius: 3px;
+        height: 160px;
+        border-style: solid;
+        border-color: rgb(218, 128, 64);
+        border-width: 5px;
+    }
+
+    footer {
+        grid-area: ft;
+        background-color: chocolate;
+        font-family: fantasy;
+        border-radius: 3px;
+        height: 140px;
+        border-style: solid;
+        border-color: rgb(218, 128, 64);
+        border-width: 5px;
+    }
+    #video {
+        position: relative;
+        top: -5px;
+    }
+}
+
+
