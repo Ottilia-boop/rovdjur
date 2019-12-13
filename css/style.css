@@ -27,6 +27,7 @@ border-color:  rgb(218, 128, 64);
 }
 
 h1 {
+    font-family: fantasy;
     position: relative;
     right: -60;
 }
@@ -63,6 +64,7 @@ border-style: solid;
 border-color:  rgb(218, 128, 64);
 border-width: 5px;
 text-align: center;
+font-family: fantasy;
 }
 
 /*Text*/main {
