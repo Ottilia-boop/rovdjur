@@ -10,7 +10,7 @@ grid-template-areas:
 'nv nv nv'
 'mn mn mn'
 'ft ft ft';
-grid-gap: 3px;
+grid-gap: 4px;
 border-radius: 3px;
 min-height: 100vh;
 }
@@ -53,11 +53,11 @@ footer {
 background-color:chocolate;
 text-align: center;
 border-radius: 3px;
-height: 150px;
+height: 332px;
 font-family: fantasy;
 border-style: solid;
 border-color:  rgb(218, 128, 64);
-}
+}s
 
 #instagram {
 
@@ -65,16 +65,22 @@ border-color:  rgb(218, 128, 64);
 
 #twitter {
 position: relative;
-top: -5px;
+top: -16px;
 }
 
 #youtube {
-
+position: relative;
+right: -54px;
 }
 
 
-
-
+#don {
+    position: relative;
+    top: -20px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(138, 211, 211);
+}
 
 
 }
