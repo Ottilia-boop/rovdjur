@@ -57,10 +57,12 @@ height: 332px;
 font-family: fantasy;
 border-style: solid;
 border-color:  rgb(218, 128, 64);
-}s
+}
 
 #instagram {
-
+position: relative;
+right: 58px;
+top: -14px;
 }
 
 #twitter {
@@ -70,7 +72,7 @@ top: -16px;
 
 #youtube {
 position: relative;
-right: -54px;
+right: -56px;
 }
 
 
