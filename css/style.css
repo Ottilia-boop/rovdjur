@@ -28,17 +28,23 @@ logga {
 }
 
 h1 {
-    position: relative;
-    right: -200px;
-    top: 30px;
 
+    position: relative;
+    left: 235px;
+    top: -175px;
 }
 
 #hem {
     position: relative;
-    right: -20px;
-    top: -90px;
+    right: -1px;
+    top: -295px;
 
+}
+
+#hem2 {
+    position: relative;
+    left: 410px;
+    top: -4px;
 }
 
 /*Bild*/header {
@@ -130,7 +136,7 @@ article {
     background-color: rgb(228, 140, 78);
     position: relative;
     right: 35px;
-    
+    top: -10px;
 }
 video {
     font-family: fantasy;
